@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>H&C</title>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css.css">
+    <script type='text/javascript'
+  src='http://code.jquery.com/jquery-1.9.1.js'></script>
+<center><h1>Hard Chest</h1></center>
+<center><h2>Bon Boulot, Niveau 3:</h2></center>
+
+
+
+
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){
+$(function() {
+    $(".container .dragon .mini1").click(function(){
+        $(this).css("opacity", "0");
+    });
+});
+});//]]>  
+</script>
+
+
+
+<script type="text/javascript">
+    $(document).click(function() {
+    var obj = $(".container .chemin");
+    if (!obj.is(event.target) && !obj.has(event.target).length) {
+         
+
+
+    }
+    
+
+
+
+    else {
+        
+    }
+});
+
+</script>
+
+
+
+
+<script type='text/javascript'>//<![CDATA[ 
+
+$(window).load(function(){
+$(function() {
+    $(".container .chemin .mini1").click(function(){
+        $(".container .start .mini1").css("opacity", "0.0");
+        $(".container .chemin .mini1").css("opacity", "0.0");
+        $(this).css("opacity", "1");
+    });
+});
+});//]]>  
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+            function changeImgg(path){
+                var i = parseInt(Math.random() * 20) + 1;
+                return path + i + '.png';
+            }
+        </script>
+
+
+</head>
+<body>
+
+
+
+<div class="Pioche">
+    <button><img src="./Pioche.png" onclick="this.src=changeImgg('./CarteVie/');" width="100" height="100" align="center"></button>
+    <!--<img src="./CarteVie/361a083362824731bd645f1e68e4b01e-0038.jpg" alt="" class="card" />--> 
+    
+</div>
+
+
+
+
+<div class="Pioche2">
+    <button><img src="./Pioche.png" onclick="this.src=changeImgg('./CarteDegat/');" width="100" height="100" align="center"></button>
+    <!--<img src="./CarteVie/361a083362824731bd645f1e68e4b01e-0038.jpg" alt="" class="card" />--> 
+    
+</div>
+
+<script type="text/javascript">
+            function changeImg(path){
+                var i = parseInt(Math.random() * 6) + 1;
+                return path + i + '.png';
+            }
+        </script>
+
+<div class="Dé">
+    <button><img src="./Dé.png" onclick="this.src=changeImg('./Dé/');" width="100" height="100" align="center"></button>
+    <!--<img src="./Dé.png" onclick="this.src=changeImg('./Dé/');"/>-->
+
+    
+</div>
+
+
+
+</head>
+<body>
+
+
+    <div class="container" id="cellule">
+        <div>A1</div>
+        <div>B1</div>
+        <div>C1</div>
+        <div class="chemin"><img class="mini1" alt="" id="1" src="./Pion.png" width="50" height="50"></div>
+        <div>E1</div>
+        <div>F1</div>
+        <div>G1</div>
+        <div>H1</div>
+        <div>I1</div>
+        <div>J1</div>
+        <div class="chemin"><img class="mini1" alt="" id="87" src="./Pion.png" width="50" height="50"></div>
+
+        
+        <div class="chemin"><img class="mini1" alt="" id="3" src="./Pion.png" width="50" height="50"></div>
+
+        <div class="coffre"><img class="mini1" alt="" id="2" src="./Coffre.png" onClick="location.href='./level1.html';" width="50" height="50"></div>
+
+        <div>B2</div>
+        <div>C2</div>
+        <div class="chemin"><img class="mini1" alt="" id="5" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="6" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="7" src="./Pion.png" width="50" height="50"></div>
+        <div class="dragon"><img class="mini1" alt="" id="01" src="./Dragon2.png" width="50" height="50"></div>
+        <div>H2</div>
+        <div>I2</div>
+        <div class="chemin"><img class="mini1" alt="" id="8" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="9" src="./Pion.png" width="50" height="50"></div>
+        <div>L2</div>
+
+        <div class="chemin"><img class="mini1" alt="" id="10" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="11" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="12" src="./Pion.png" width="50" height="50"></div>
+        <div>D3</div>
+        <div>E3</div>
+        <div class="chemin"><img class="mini1" alt="" id="13" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="14" src="./Pion.png" width="50" height="50"></div>
+        <div>H3</div>
+        <div class="chemin"><img class="mini1" alt="" id="15" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="16" src="./Pion.png" width="50" height="50"></div>
+        <div>K3</div>
+        <div>L3</div>
+
+        <div class="dragon"><img class="mini1" alt="" id="03" src="./Dragon.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="17" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="18" src="./Pion.png" width="50" height="50"></div>
+        <div>D4</div>
+        <div>E4</div>
+        <div>F4</div>
+        <div class="chemin"><img class="mini1" alt="" id="19" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="20" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="21" src="./Pion.png" width="50" height="50"></div>
+        <div>J4</div>
+        <div>K4</div>
+        <div>L4</div>
+
+        <div>A5</div>
+        <div>B5</div>
+        <div class="chemin"><img class="mini1" alt="" id="22" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="23" src="./Pion.png" width="50" height="50"></div>
+        <div>E5</div>
+        <div class="chemin"><img class="mini1" alt="" id="24" src="./Pion.png" width="50" height="50"></div>
+        <div class="dragon"><img class="mini1" alt="" id="02" src="./Dragon.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="25" src="./Pion.png" width="50" height="50"></div>
+        <div>I5</div>
+        <div>J5</div>
+        <div>K5</div>
+        <div>L5</div>
+
+        <div class="chemin"><img class="mini1" alt="" id="26" src="./Pion.png" width="50" height="50"></div>
+        <div>B6</div>
+        <div class="chemin"><img class="mini1" alt="" id="27" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="28" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="29" src="./Pion.png" width="50" height="50"></div>
+        <div>F6</div>
+        <div>G6</div>
+        <div class="chemin"><img class="mini1" alt="" id="30" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="31" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="32" src="./Pion.png" width="50" height="50"></div>
+        <div class="dragon"><img class="mini1" alt="" id="01" src="./Dragon2.png" width="50" height="50"></div>
+        <div>L6</div>
+
+        <div class="chemin"><img class="mini1" alt="" id="33" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="34" src="./Pion.png" width="50" height="50"></div>
+        <div>C7</div>
+        <div class="dragon"><img class="mini1" alt="" id="01" src="./Dragon2.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="35" src="./Pion.png" width="50" height="50"></div>
+        <div>F7</div>
+        <div>G7</div>
+        <div class="chemin"><img class="mini1" alt="" id="36" src="./Pion.png" width="50" height="50"></div>
+        <div>I7</div>
+        <div class="chemin"><img class="mini1" alt="" id="37" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="38" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="39" src="./Pion.png" width="50" height="50"></div>
+
+        <div>A8</div>
+        <div class="chemin"><img class="mini1" alt="" id="40" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="41" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="42" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="43" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="44" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="45" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="46" src="./Pion.png" width="50" height="50"></div>
+        <div class="dragon"><img class="mini1" alt="" id="01" src="./Dragon.png" width="50" height="50"></div>
+        <div>J8</div>
+        <div>K8</div>
+        <div>L8</div>
+
+        <div>A9</div>
+        <div>B9</div>
+        <div class="chemin"><img class="mini1" alt="" id="47" src="./Pion.png" width="50" height="50"></div>
+        <div>D9</div>
+        <div>E9</div>
+        <div class="start"><img class="mini1" alt=""  id="48" src="./Pion.png" width="50" height="50"></div>
+        <div class="chemin"><img class="mini1" alt="" id="49" src="./Pion.png" width="50" height="50"></div>
+        <div>H9</div>
+        <div>I9</div>
+        <div>J9</div>
+        <div>K9</div>
+        <div>L9</div>
+
+     </div>
+
+
+    <p class="detaille">Le dragon rouge possède 5 points de vie et 5 points d'attaque.</p>
+
+    <p class="detaille2">Le dragon violet possède 7 points de vie et 7 points d'attaque.</p>
+
+    <p class="detaille3">Après avoir tué tous les dragons a toi de chercher le coffre !</p>
+
+   
+
+
+        
+
+</body>
+</html>

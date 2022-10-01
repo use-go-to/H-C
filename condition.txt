@@ -1,0 +1,31 @@
+Le dragon doit apparaitre aleatoirement;
+
+Le dragon ne doit pas apparaitre hors du plateau;
+
+Le dragon ne doit pas apparaître hors des cases vertes;
+
+Ecouter la position des 3 dragons, l'enregistrer  (et mettre la ValeurPvDragon = 5 / la ValeurDégatsDragon =5 );
+
+Le pion ne doit pas sortir du tableau;
+
+Le pion ne peut pas sortir des cases jaunes;
+
+Ecouter le dé, enregistrer la valeure;
+
+Ecouter le nombre de case parcouru par le pion et s'arrête lorsque la ValeureDé a été atteinte;
+
+Ecouter la ValeureCarteRouge, enregistrer la ValeureCarteRouge, l'afficher en haut à droite et si un dragon se trouve a un rayon d'une case, affecter à la ValeureCarteRouge la ValeurDégatsDragon;
+
+Ecouter la ValeureCarteNoir, enregistrer la ValeureCarteNoir, l'afficher en haut à droite et si un dragon se trouve à un rayon d'une case, la potentielle ValeurPvDragon doit être affecter;
+
+Si la ValeurePvDragon est < à 1 alors il disparrait;
+
+Si la ValeurePvJoueur est < à 6 alors il disparrait = ValeureKill;
+
+Lorsque tout les dragons ont été éliminé, faire apparaitre un coffre aléatoirement sur une case jaune;
+
+Quand le Pion arrive sur le coffre, un message apparait avec les mot wine et la ValeureKill;
+
+
+
+
